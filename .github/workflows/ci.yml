@@ -47,7 +47,7 @@ jobs:
 
       - name: Run PHPStan
         working-directory: projet
-        run: ./vendor/bin/phpstan analyse
+        run: ./vendor/bin/phpstan analyse app
 
       - name: Run Tests with coverage
         run: php artisan test --coverage-clover=coverage.xml
