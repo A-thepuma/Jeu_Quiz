@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: projet # S'applique à toutes les étapes
+        working-directory: projet 
 
     steps:
       - name: Checkout code
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22
 
       - name: Install PHP dependencies
         run: composer install --no-progress --prefer-dist
@@ -57,8 +57,6 @@ jobs:
         run: ./vendor/bin/pint --test
 
       - name: Run PHPStan (Bonus Analyse)
-        # J'ai retiré le working-directory local car il est déjà global
-        # J'ai retiré "app" car PHPStan utilisera ton fichier phpstan.neon
         run: ./vendor/bin/phpstan analyse
 
       - name: Run Tests with coverage
