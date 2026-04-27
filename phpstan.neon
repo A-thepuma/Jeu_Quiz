@@ -4,8 +4,6 @@ includes:
 parameters:
     paths:
         - app
-        - database/factories
-        - database/seeders
+        - database
         - tests
-    
     level: 5

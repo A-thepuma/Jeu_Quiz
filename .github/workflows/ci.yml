@@ -53,11 +53,11 @@ jobs:
       - name: Run migrations
         run: php artisan migrate --env=testing
 
-      - name: Run Pint (Bonus Linter)
+      - name: Run Pint 
         run: ./vendor/bin/pint --test
 
-      - name: Run PHPStan (Bonus Analyse)
-        run: ./vendor/bin/phpstan analyse
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse app database tests
 
       - name: Run Tests with coverage
         run: php artisan test --coverage-clover=coverage.xml
