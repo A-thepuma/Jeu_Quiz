@@ -1,7 +1,7 @@
 # Jeu_Quiz
-[![CI](https://github.com/TON_USERNAME/TON_REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/TON_USERNAME/TON_REPO/actions)
+[![CI](https://github.com/A-thepuma/Jeu_Quiz/actions/workflows/ci.yml/badge.svg)](https://github.com/A-thepuma/Jeu_Quiz/actions)
 
-[![Coverage](https://codecov.io/gh/TON_USERNAME/TON_REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/TON_USERNAME/TON_REPO)
+[![Coverage](https://codecov.io/gh/A-thepuma/Jeu_Quiz/branch/main/graph/badge.svg)](https://codecov.io/gh/A-thepuma/Jeu_Quiz)
 
 # Quiz Game Laravel + Vue.js
 
