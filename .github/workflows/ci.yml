@@ -46,6 +46,7 @@ jobs:
         run: ./vendor/bin/pint --test
 
       - name: Run PHPStan
+        working-directory: projet
         run: ./vendor/bin/phpstan analyse
 
       - name: Run Tests with coverage
