@@ -1,4 +1,7 @@
 # Jeu_Quiz
+[![CI](https://github.com/TON_USERNAME/TON_REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/TON_USERNAME/TON_REPO/actions)
+
+[![Coverage](https://codecov.io/gh/TON_USERNAME/TON_REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/TON_USERNAME/TON_REPO)
 
 # Quiz Game Laravel + Vue.js
 
