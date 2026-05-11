@@ -27,13 +27,13 @@ import { Link } from '@inertiajs/vue3';
 
                 <!-- Bouton Profil ou Score (exemple) -->
                 <div class="flex items-center gap-1.5">
-                    <button class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                    <Link href="/connexion" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
                         Se connecter
-                    </button>
+                    </Link>
 
-                    <button class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                    <Link href="/inscription" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
                         Créer un compte
-                    </button>
+                    </Link>
                 </div>
             </div>
         </nav>
