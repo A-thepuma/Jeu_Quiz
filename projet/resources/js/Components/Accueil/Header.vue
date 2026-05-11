@@ -8,7 +8,7 @@ import { Link } from '@inertiajs/vue3';
             <div class="flex justify-between h-16 items-center">
 
                 <div class="flex-shrink-0 flex items-center">
-                    <Link href="/accueil" class="text-2xl font-black tracking-tighter">
+                    <Link href="/" class="text-2xl font-black tracking-tighter">
                         QUIZLY
                     </Link>
                 </div>
