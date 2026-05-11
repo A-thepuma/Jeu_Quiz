@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MyFooter from '@/Components/Accueil/Footer.vue';
 import MyHeader from '@/Components/Accueil/Header.vue';
-import CategoryCard from '@/Components/Accueil/categoriCard.vue';
+import CategoryCard from '@/Components/cards/categoriCard.vue';
 
 
 const categories = [
