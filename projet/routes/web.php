@@ -7,4 +7,3 @@ Route::inertia('/connexion', 'Connexion/Login')->name('connexion');
 Route::inertia('/inscription', 'Connexion/SignUp')->name('inscription');
 Route::inertia('/classement', 'Classement')->name('classement');
 Route::inertia('/jouer', 'Jeu/Jouer')->name('jouer');
-
