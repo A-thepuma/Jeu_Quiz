@@ -1,0 +1,1 @@
+import{s as e}from"./app-jeeK0yjC.js";var t=e({__name:`SignUp`,setup(e){return()=>{}}});export{t as default};
