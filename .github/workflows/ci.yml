@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ develop, main ]
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: projet 
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
+          extensions: mbstring, pdo, sqlite
+          coverage: xdebug
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: Install PHP dependencies
+        run: composer install --no-progress --prefer-dist
+
+      - name: Install JS dependencies
+        run: npm install
+
+      - name: Build frontend (Indispensable AVANT les tests)
+        run: npm run build
+
+      - name: Copy .env
+        run: cp .env.example .env
+
+      - name: Generate key
+        run: php artisan key:generate
+
+      - name: Create SQLite DB
+        run: |
+          mkdir -p database
+          touch database/database.sqlite
+
+      - name: Run migrations
+        run: php artisan migrate --env=testing
+
+      - name: Run Pint 
+        run: ./vendor/bin/pint --test
+
+      - name: Run PHPStan
+        run: ./vendor/bin/phpstan analyse app database tests
+
+      - name: Run Tests with coverage
+        run: php artisan test --coverage-clover=coverage.xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: projet/coverage.xml 
+          fail_ci_if_error: false 
+          token: ${{ secrets.CODECOV_TOKEN }}

@@ -1,0 +1,41 @@
+<script setup lang="ts">
+import { Link } from '@inertiajs/vue3';
+</script>
+
+<template>
+    <header class="bg-white shadow-sm border-b border-gray-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+
+                <div class="flex-shrink-0 flex items-center">
+                    <Link href="/" class="text-2xl font-black tracking-tighter">
+                        QUIZLY
+                    </Link>
+                </div>
+
+                <div class="hidden md:flex space-x-8">
+                    <Link href="/jouer" class="text-gray-600 font-medium transition">
+                        Jouer
+                    </Link>
+                    <Link href="/classement" class="text-gray-600 font-medium transition">
+                        Classement
+                    </Link>
+                    <!-- <Link href="/daeshboard" class="text-gray-600 hover:text-indigo-600 font-medium transition">
+                        Daeshboard
+                    </Link> -->
+                </div>
+
+                <!-- Bouton Profil ou Score (exemple) -->
+                <div class="flex items-center gap-1.5">
+                    <Link href="/connexion" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                        Se connecter
+                    </Link>
+
+                    <Link href="/inscription" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                        Créer un compte
+                    </Link>
+                </div>
+            </div>
+        </nav>
+    </header>
+</template>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1777882857">
+  <project timestamp="1777882857" name="Clover Coverage">
+    <package name="App\Http\Controllers">
+      <file name="C:\Users\andre\Documents\S4\Qualité\TP\Jeu_Quiz\projet\app\Http\Controllers\Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="9" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="C:\Users\andre\Documents\S4\Qualité\TP\Jeu_Quiz\projet\app\Http\Middleware\HandleInertiaRequests.php">
+        <class name="App\Http\Middleware\HandleInertiaRequests" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="24" type="method" name="version" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="36" type="method" name="share" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <metrics loc="47" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="C:\Users\andre\Documents\S4\Qualité\TP\Jeu_Quiz\projet\app\Models\User.php">
+        <class name="App\Models\User" namespace="App\Models">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+        </class>
+        <line num="25" type="method" name="casts" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="26" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="C:\Users\andre\Documents\S4\Qualité\TP\Jeu_Quiz\projet\app\Providers\AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="4" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="9" elements="18" coveredelements="11"/>
+        </class>
+        <line num="16" type="method" name="register" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="32" type="method" name="configureDefaults" visibility="protected" complexity="2" crap="2.39" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <metrics loc="51" ncloc="41" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="9" elements="18" coveredelements="11"/>
+      </file>
+    </package>
+    <metrics files="4" loc="140" ncloc="103" classes="3" methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="17" elements="33" coveredelements="21"/>
+  </project>
+</coverage>
