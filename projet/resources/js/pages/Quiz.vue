@@ -1,14 +1,19 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, watch } from "vue";
 
+
 import MyHeader from "@/Components/Accueil/Header.vue";
 import MyFooter from "@/Components/Accueil/Footer.vue";
+
+import { ArrowLeft } from "lucide-vue-next";
 
 import {
   categories,
   questions,
   type Question,
 } from "@/mockData/quizSeed";
+
+import { Link } from "@inertiajs/vue3";
 
 /*
 |--------------------------------------------------------------------------
@@ -512,6 +517,20 @@ function answerLetter(index: number) {
           </div>
 
         </div>
+        
+                
+                <Link
+        href="/jouer"
+        class="mt-10 w-fit inline-flex items-center justify-center gap-2 text-sm bg-black text-white px-6 py-3 rounded-lg font-light hover:scale-[1.02] transition-all duration-300 cursor-pointer"
+        >
+
+        <ArrowLeft class="h-4 w-4" />
+        <span class="text-sm font-light">
+            quitter
+        </span>
+
+        
+        </Link>
 
       </template>
 

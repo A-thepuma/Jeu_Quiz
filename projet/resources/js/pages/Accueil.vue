@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Sparkles, Trophy, Zap, ArrowRight } from "lucide-vue-next";
+import { Sparkles, Trophy, Zap, ArrowRight, Link } from "lucide-vue-next";
 
 import MyHeader from "@/Components/Accueil/Header.vue";
 import MyFooter from "@/Components/Accueil/Footer.vue";
@@ -40,25 +40,38 @@ import GlassCard from "@/Components/cards/GlassCard.vue";
               and a timer that feels like jazz.
             </p>
 
-            <!-- buttons -->
             <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+  <!-- Bouton principal -->
+  <RouterLink
+    to="/categories"
+    class="inline-flex items-center justify-center h-12 px-8 rounded-full bg-black text-white font-light text-base transition-all duration-300 hover:cursor-pointer hover:scale-105 group"
+  >
+    Start quiz
 
-              <router-link
-                to="/categories"
-                class="rounded-full px-8 h-12 flex items-center gap-2 bg-black text-white font-light text-base shadow-lg hover:scale-[1.02] transition"
-              >
-                Start quiz
-                <ArrowRight class="h-4 w-4" />
-              </router-link>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  </RouterLink>
 
-              <router-link
-                to="/leaderboard"
-                class="rounded-full px-6 h-12 flex items-center text-base font-light text-gray-500 hover:text-black transition"
-              >
-                View leaderboard
-              </router-link>
-
-            </div>
+  <!-- Deuxième lien -->
+  <RouterLink
+    to="/leaderboard"
+    class="inline-flex items-center justify-center h-12 px-6 rounded-full text-black font-light text-base transition-all duration-300 hover:cursor-pointer hover:scale-105"
+  >
+    View leaderboard
+  </RouterLink>
+</div>
 
           </div>
 
