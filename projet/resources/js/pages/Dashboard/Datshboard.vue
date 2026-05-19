@@ -3,7 +3,6 @@ import Header from '@/Components/Accueil/Header.vue';
 import Footer from '@/Components/Accueil/Footer.vue';
 import CategoryCard from '@/Components/cards/categoriCard.vue';
 
-
 const categories = [
     { id: "general", name: "General knowledge", description: "Questions variées sur des sujets divers.", icon: " globe-2", count: 25 },
     { id: "science", name: "Science", description: "Questions sur la physique, la chimie, et la biologie.", icon: "atom", count: 18 },
@@ -12,6 +11,7 @@ const categories = [
     { id: "movies", name: "Movies", description: "Questions sur le cinéma, les acteurs et les réalisateurs.", icon: "clapperboard", count: 30 },
     { id: "history", name: "History", description: "Questions sur les événements historiques et les civilisations.", icon: "landmark", count: 28 },
 ];
+
 
 </script>
 

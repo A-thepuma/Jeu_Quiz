@@ -10,13 +10,11 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <div
-    :class="[
-      props.variant === 'strong' ? 'glass-strong' : 'glass',
-      'rounded-2xl',
-      props.class
-    ]"
-  >
+  <div :class="[
+    props.variant === 'strong' ? 'glass-strong' : 'glass',
+    'rounded-2xl',
+    props.class
+  ]">
     <slot />
   </div>
 </template>

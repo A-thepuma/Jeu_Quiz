@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
+
+
+let user = true;
 </script>
 
 <template>
@@ -20,18 +23,22 @@ import { Link } from '@inertiajs/vue3';
                     <Link href="/classement" class="text-gray-600 font-medium transition">
                         Classement
                     </Link>
-                    <!-- <Link href="/daeshboard" class="text-gray-600 hover:text-indigo-600 font-medium transition">
-                        Daeshboard
-                    </Link> -->
+
+                    <Link v-if="user" href="/dashboard"
+                        class="text-gray-600 hover:cursor-pointer font-medium transition">
+                        Dashboard
+                    </Link>
                 </div>
 
                 <!-- Bouton Profil ou Score (exemple) -->
                 <div class="flex items-center gap-1.5">
-                    <Link href="/login" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                    <Link v-if="!user" href="/login"
+                        class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
                         Se connecter
                     </Link>
 
-                    <Link href="/register" class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
+                    <Link v-if="!user" href="/register"
+                        class="bg-indigo-50 px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-100 transition">
                         S'inscrire
                     </Link>
                 </div>
