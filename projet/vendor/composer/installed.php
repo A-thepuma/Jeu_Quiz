@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/blank-vue-starter-kit',
-        'pretty_version' => 'dev-develop',
-        'version' => 'dev-develop',
-        'reference' => '79775e2bfcbc430de2c067a47ff501e5450878c0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '12f9bc5da7ddc6c607bc0c5de2a98b71456cb991',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -416,9 +416,9 @@
             'dev_requirement' => true,
         ),
         'laravel/blank-vue-starter-kit' => array(
-            'pretty_version' => 'dev-develop',
-            'version' => 'dev-develop',
-            'reference' => '79775e2bfcbc430de2c067a47ff501e5450878c0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '12f9bc5da7ddc6c607bc0c5de2a98b71456cb991',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -468,6 +468,15 @@
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'laravel/sanctum' => array(
+            'pretty_version' => 'v4.3.2',
+            'version' => '4.3.2.0',
+            'reference' => '2a9bccc18e9907808e0018dd15fa643937886b1e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/sanctum',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'laravel/serializable-closure' => array(
             'pretty_version' => 'v2.0.12',
