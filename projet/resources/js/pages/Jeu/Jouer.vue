@@ -5,12 +5,12 @@ import CategoryCard from '@/Components/cards/categoriCard.vue';
 
 const categories = [
   // Remplace les IDs par les chiffres correspondants à ta base de données SQLite
-  { id: "géographie", name: "Géographie", description: "Questions sur les pays, les capitales et les cultures.", icon: "map", count: 15 },
+  { id: 1, name: "Géographie", description: "Questions sur les pays, les capitales et les cultures.", icon: "map", count: 15 },
   { id: 2, name: "Science", description: "Questions sur la physique, la chimie, et la biologie.", icon: "atom", count: 18 },
-  { id: 3, name: "Technology", description: "Questions sur l'informatique, le code et l'innovation.", icon: "laptop-code", count: 22 },
-  { id: 4, name: "General knowledge", description: "Questions variées sur des sujets divers.", icon: "globe-2", count: 25 },
-  { id: 5, name: "Movies", description: "Questions sur le cinéma, les acteurs et les réalisateurs.", icon: "clapperboard", count: 30 },
-  { id: 6, name: "History", description: "Questions sur les événements historiques et les civilisations.", icon: "landmark", count: 28 },
+  { id: 3, name: "Technologie", description: "Questions sur l'informatique, le code et l'innovation.", icon: "laptop-code", count: 22 },
+  { id: 4, name: "Culture générale ", description: "Questions variées sur des sujets divers.", icon: "globe-2", count: 25 },
+  { id: 5, name: "Films", description: "Questions sur le cinéma, les acteurs et les réalisateurs.", icon: "clapperboard", count: 30 },
+  { id: 6, name: "Histoire", description: "Questions sur les événements historiques et les civilisations.", icon: "landmark", count: 28 },
 ];
 
 </script>

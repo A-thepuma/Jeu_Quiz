@@ -2,32 +2,43 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
 use App\Models\Category;
 use App\Models\Question;
 use App\Models\Reponse;
-use Illuminate\Database\Seeder;
 
 class QuizSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        // Catégories
-        $geographie = Category::create(['name' => 'géographie']);
+        $json = file_get_contents(
+            database_path('data/questions.json')
+        );
 
-        // Questions - géographie
-        $question = Question::create(['category_id' => $geographie->id, 'question' => 'Quelle est la capitale de Japan ?']);
+        $data = json_decode($json, true);
 
+        foreach ($data as $categoryName => $questions) {
 
-        // Réponses - géographie
-        $reponses = Reponse::create(['question_id' => $question->id, 'reponse' => 'Tokyo', 'isCorrect' => true,]);
-        $reponses = Reponse::create(['question_id' => $question->id, 'reponse' => 'Paris', 'isCorrect' => false,]);
-        $reponses = Reponse::create(['question_id' => $question->id, 'reponse' => 'Porto novo', 'isCorrect' => false,]);
-        $reponses = Reponse::create(['question_id' => $question->id, 'reponse' => 'Nassimichou', 'isCorrect' => false,]);
-        
+            $category = Category::create([
+                'name' => $categoryName
+            ]);
 
+            foreach ($questions as $questionData) {
+
+                $question = Question::create([
+                    'category_id' => $category->id,
+                    'question' => $questionData['question']
+                ]);
+
+                foreach ($questionData['reponses'] as $reponseData) {
+
+                    Reponse::create([
+                        'question_id' => $question->id,
+                        'reponse' => $reponseData['texte'],
+                        'isCorrect' => $reponseData['correct']
+                    ]);
+                }
+            }
+        }
     }
 }

@@ -55,8 +55,7 @@ const getCategoryIdFromURL = () => {
   return segments[segments.length - 1] || "";
 };
 
-const categoryId = getCategoryIdFromURL(); // Récupère "1" depuis "/quiz/1"
-
+const categoryId = getCategoryIdFromURL();
 async function loadQuiz() {
   try {
     loading.value = true;

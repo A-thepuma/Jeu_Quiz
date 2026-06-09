@@ -6,4 +6,4 @@ use App\Http\Controllers\API\QuizController;
 
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/questions', [QuestionController::class, 'index']);
-Route::get('/quiz/{category}', [QuizController::class, 'show'])->where('categoryName', '.*');
+Route::get('/quiz/{category}', [QuizController::class, 'show']);
