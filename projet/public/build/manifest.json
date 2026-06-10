@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-DHVD2fCc.css",
+    "file": "assets/app-C5ZED4TM.css",
     "name": "app",
     "names": [
       "app.css"
@@ -9,31 +9,9 @@
     "isEntry": true
   },
   "resources/js/app.ts": {
-    "file": "assets/app-jeeK0yjC.js",
+    "file": "assets/app-lfQ0Snhq.js",
     "name": "app",
     "src": "resources/js/app.ts",
-    "isEntry": true,
-    "dynamicImports": [
-      "resources/js/pages/Accueil.vue",
-      "resources/js/pages/Connexion/SignUp.vue"
-    ]
-  },
-  "resources/js/pages/Accueil.vue": {
-    "file": "assets/Accueil-B5wja-5c.js",
-    "name": "Accueil",
-    "src": "resources/js/pages/Accueil.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.ts"
-    ]
-  },
-  "resources/js/pages/Connexion/SignUp.vue": {
-    "file": "assets/SignUp-DkWExa-X.js",
-    "name": "SignUp",
-    "src": "resources/js/pages/Connexion/SignUp.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.ts"
-    ]
+    "isEntry": true
   }
 }

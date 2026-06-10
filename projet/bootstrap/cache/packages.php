@@ -6,11 +6,32 @@
       0 => 'Inertia\\ServiceProvider',
     ),
   ),
+  'laravel/fortify' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Fortify\\FortifyServiceProvider',
+    ),
+  ),
+  'laravel/jetstream' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Jetstream\\JetstreamServiceProvider',
+    ),
+  ),
   'laravel/pail' => 
   array (
     'providers' => 
     array (
       0 => 'Laravel\\Pail\\PailServiceProvider',
+    ),
+  ),
+  'laravel/passkeys' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Passkeys\\PasskeysServiceProvider',
     ),
   ),
   'laravel/sail' => 
@@ -39,6 +60,17 @@
     'providers' => 
     array (
       0 => 'Laravel\\Wayfinder\\WayfinderServiceProvider',
+    ),
+  ),
+  'livewire/livewire' => 
+  array (
+    'aliases' => 
+    array (
+      'Livewire' => 'Livewire\\Livewire',
+    ),
+    'providers' => 
+    array (
+      0 => 'Livewire\\LivewireServiceProvider',
     ),
   ),
   'nesbot/carbon' => 

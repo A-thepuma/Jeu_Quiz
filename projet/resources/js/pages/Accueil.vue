@@ -4,6 +4,7 @@ import { Sparkles, Trophy, Zap, ArrowRight } from "lucide-vue-next";
 import MyHeader from "@/Components/Accueil/Header.vue";
 import MyFooter from "@/Components/Accueil/Footer.vue";
 import GlassCard from "@/Components/cards/GlassCard.vue";
+
 </script>
 
 <template>
