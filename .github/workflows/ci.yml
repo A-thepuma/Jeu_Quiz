@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, develop]
   pull_request:
-    branches: [ develop, main ]
+    branches: [develop, main]
 
 jobs:
   app:
@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: projet 
+        working-directory: projet
 
     steps:
       - name: Checkout code
@@ -33,8 +33,11 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --no-progress --prefer-dist
 
+      # MODIFICATION ICI : On nettoie le cache et on réinstalle proprement le plugin Vue défaillant
       - name: Install JS dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -D vite@latest @vitejs/plugin-vue@latest
 
       - name: Fix Node binaries permissions
         run: chmod +x node_modules/.bin/*
@@ -56,7 +59,7 @@ jobs:
       - name: Run migrations
         run: php artisan migrate --env=testing
 
-      - name: Run Pint 
+      - name: Run Pint
         run: ./vendor/bin/pint --test
 
       - name: Run PHPStan
@@ -68,6 +71,6 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          files: projet/coverage.xml 
-          fail_ci_if_error: false 
+          files: projet/coverage.xml
+          fail_ci_if_error: false
           token: ${{ secrets.CODECOV_TOKEN }}
