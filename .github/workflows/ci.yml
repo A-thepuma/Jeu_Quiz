@@ -36,6 +36,9 @@ jobs:
       - name: Install JS dependencies
         run: npm install
 
+      - name: Fix Node binaries permissions
+        run: chmod +x node_modules/.bin/*
+
       - name: Build frontend (Indispensable AVANT les tests)
         run: npm run build
 
