@@ -33,8 +33,12 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --no-progress --prefer-dist
 
+      # MODIFICATION ICI : On nettoie le cache et on réinstalle proprement le plugin Vue défaillant
       - name: Install JS dependencies
-        run: npm install
+        run: |
+          npm rm -rf node_modules package-lock.json
+          npm install --legacy-peer-deps
+          npm install @vitejs/plugin-vue --save-dev
 
       - name: Fix Node binaries permissions
         run: chmod +x node_modules/.bin/*
