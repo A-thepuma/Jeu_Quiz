@@ -19,7 +19,7 @@ import GlassCard from "@/Components/cards/GlassCard.vue";
         <div class="container py-20 md:py-32 relative">
 
           <div class="max-w-3xl mx-auto text-center animate-fade-up">
-
+ 
             <!-- badge -->
             <div
               class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gray-200 text-xs font-light text-gray-500 mb-8"
