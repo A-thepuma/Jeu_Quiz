@@ -4,6 +4,7 @@ import { Sparkles, Trophy, Zap, ArrowRight, Link } from "lucide-vue-next";
 import MyHeader from "@/Components/Accueil/Header.vue";
 import MyFooter from "@/Components/Accueil/Footer.vue";
 import GlassCard from "@/Components/cards/GlassCard.vue";
+
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import GlassCard from "@/Components/cards/GlassCard.vue";
     <main>
 
       <!-- HERO -->
-      <section class="relative overflow-hidden">
+      <section class="relative overflow-hidden flex  justify-center">
         <div class="container py-20 md:py-32 relative">
 
           <div class="max-w-3xl mx-auto text-center animate-fade-up">

@@ -1,0 +1,1256 @@
+{
+    "Géographie": [
+        {
+            "question": "Quelle est la capitale du Japon ?",
+            "reponses": [
+                { "texte": "Tokyo", "correct": true },
+                { "texte": "Paris", "correct": false },
+                { "texte": "Séoul", "correct": false },
+                { "texte": "Pékin", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la capitale de la Grande Bretagne ?",
+            "reponses": [
+                { "texte": "Londres", "correct": false },
+                { "texte": "Totenham", "correct": false },
+                { "texte": "Manchester United", "correct": false },
+                { "texte": "Aucune", "correct": true }
+            ]
+        },
+        {
+            "question": "Quelle est la capitale de la France ?",
+            "reponses": [
+                { "texte": "Berlin", "correct": false },
+                { "texte": "Madrid", "correct": false },
+                { "texte": "Paris", "correct": true },
+                { "texte": "Rome", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel pays est le plus grand en superficie ?",
+            "reponses": [
+                { "texte": "Canada", "correct": false },
+                { "texte": "Chine", "correct": false },
+                { "texte": "États-Unis", "correct": false },
+                { "texte": "Russie", "correct": true }
+            ]
+        },
+        {
+            "question": "Quelle est la capitale de l'Australie ?",
+            "reponses": [
+                { "texte": "Sydney", "correct": false },
+                { "texte": "Canberra", "correct": true },
+                { "texte": "Melbourne", "correct": false },
+                { "texte": "Brisbane", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle ville est la capitale du Canada ?",
+            "reponses": [
+                { "texte": "Toronto", "correct": false },
+                { "texte": "Vancouver", "correct": false },
+                { "texte": "Ottawa", "correct": true },
+                { "texte": "Montréal", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le plus long fleuve du monde ?",
+            "reponses": [
+                { "texte": "Le Nil", "correct": false },
+                { "texte": "L'Amazone", "correct": true },
+                { "texte": "Le Mississippi", "correct": false },
+                { "texte": "Le Yangzi Jiang", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel océan borde la côte ouest des États-Unis ?",
+            "reponses": [
+                { "texte": "L'océan Atlantique", "correct": false },
+                { "texte": "L'océan Indien", "correct": false },
+                { "texte": "L'océan Pacifique", "correct": true },
+                { "texte": "L'océan Arctique", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+            "reponses": [
+                { "texte": "L'Oural", "correct": true },
+                { "texte": "Les Alpes", "correct": false },
+                { "texte": "L'Himalaya", "correct": false },
+                { "texte": "Les Andes", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le pays le plus peuplé du monde ?",
+            "reponses": [
+                { "texte": "La Chine", "correct": false },
+                { "texte": "L'Inde", "correct": true },
+                { "texte": "Les États-Unis", "correct": false },
+                { "texte": "L'Indonésie", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel pays se trouve le désert de l'Atacama ?",
+            "reponses": [
+                { "texte": "Le Chili", "correct": true },
+                { "texte": "Le Mexique", "correct": false },
+                { "texte": "L'Égypte", "correct": false },
+                { "texte": "L'Australie", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la capitale de l'Italie ?",
+            "reponses": [
+                { "texte": "Milan", "correct": false },
+                { "texte": "Naples", "correct": false },
+                { "texte": "Venise", "correct": false },
+                { "texte": "Rome", "correct": true }
+            ]
+        },
+        {
+            "question": "Quel est le plus petit pays du monde en superficie ?",
+            "reponses": [
+                { "texte": "Monaco", "correct": false },
+                { "texte": "Le Vatican", "correct": true },
+                { "texte": "Saint-Marin", "correct": false },
+                { "texte": "Le Liechtenstein", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel détroit sépare le Maroc de l'Espagne ?",
+            "reponses": [
+                { "texte": "Le détroit de Malacca", "correct": false },
+                { "texte": "Le détroit de Gibraltar", "correct": true },
+                { "texte": "Le détroit de Magellan", "correct": false },
+                { "texte": "Le détroit du Bosphore", "correct": false }
+            ]
+        },
+        {
+            "question": "Sur quel continent se trouve le mont Kilimandjaro ?",
+            "reponses": [
+                { "texte": "L'Afrique", "correct": true },
+                { "texte": "L'Asie", "correct": false },
+                { "texte": "L'Amérique du Sud", "correct": false },
+                { "texte": "L'Europe", "correct": false }
+            ]
+        }
+    ],
+    "Science": [
+        {
+            "question": "Quelle planète est la plus proche du Soleil ?",
+            "reponses": [
+                { "texte": "Mercure", "correct": true },
+                { "texte": "Mars", "correct": false },
+                { "texte": "Terre", "correct": false },
+                { "texte": "Vénus", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est l'organe le plus grand du corps humain ?",
+            "reponses": [
+                { "texte": "Le foie", "correct": false },
+                { "texte": "La peau", "correct": true },
+                { "texte": "Le cerveau", "correct": false },
+                { "texte": "Les poumons", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel gaz les plantes absorbent-elles principalement pendant la photosynthèse ?",
+            "reponses": [
+                { "texte": "Le dioxyde de carbone", "correct": true },
+                { "texte": "L'oxygène", "correct": false },
+                { "texte": "L'azote", "correct": false },
+                { "texte": "L'hydrogène", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la vitesse de la lumière dans le vide (environ) ?",
+            "reponses": [
+                { "texte": "150 000 km/s", "correct": false },
+                { "texte": "300 000 km/s", "correct": true },
+                { "texte": "1 000 000 km/s", "correct": false },
+                { "texte": "30 000 km/s", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle particule subatomique a une charge électrique négative ?",
+            "reponses": [
+                { "texte": "Le proton", "correct": false },
+                { "texte": "Le neutron", "correct": false },
+                { "texte": "L'électron", "correct": true },
+                { "texte": "Le quark", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel scientifique a formulé la théorie de la relativité générale ?",
+            "reponses": [
+                { "texte": "Isaac Newton", "correct": false },
+                { "texte": "Albert Einstein", "correct": true },
+                { "texte": "Galilée", "correct": false },
+                { "texte": "Marie Curie", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la principale source d'énergie d'une cellule humaine ?",
+            "reponses": [
+                { "texte": "L'ATP", "correct": true },
+                { "texte": "L'ADN", "correct": false },
+                { "texte": "L'ARN", "correct": false },
+                { "texte": "Les protéines", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle substance est appelée le 'solvant universel' ?",
+            "reponses": [
+                { "texte": "L'alcool", "correct": false },
+                { "texte": "L'acide sulfurique", "correct": false },
+                { "texte": "L'eau", "correct": true },
+                { "texte": "L'acétone", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est l'unité de mesure de la force dans le Système International ?",
+            "reponses": [
+                { "texte": "Le Joule", "correct": false },
+                { "texte": "Le Watt", "correct": false },
+                { "texte": "Le Pascal", "correct": false },
+                { "texte": "Le Newton", "correct": true }
+            ]
+        },
+        {
+            "question": "Quel métal est liquide à température ambiante ?",
+            "reponses": [
+                { "texte": "L'aluminium", "correct": false },
+                { "texte": "Le mercure", "correct": true },
+                { "texte": "Le plomb", "correct": false },
+                { "texte": "Le cuivre", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien d'os compte le corps humain à l'âge adulte ?",
+            "reponses": [
+                { "texte": "106", "correct": false },
+                { "texte": "206", "correct": true },
+                { "texte": "306", "correct": false },
+                { "texte": "406", "correct": false }
+            ]
+        },
+        {
+            "question": "Comment appelle-t-on le passage de l'état solide à l'état gazeux sans passer par l'état liquide ?",
+            "reponses": [
+                { "texte": "La sublimation", "correct": true },
+                { "texte": "La vaporisation", "correct": false },
+                { "texte": "La condensation", "correct": false },
+                { "texte": "La fusion", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel type de sang est considéré comme le donneur universel ?",
+            "reponses": [
+                { "texte": "AB positif", "correct": false },
+                { "texte": "O négatif", "correct": true },
+                { "texte": "A positif", "correct": false },
+                { "texte": "B négatif", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la couche la plus externe de la Terre ?",
+            "reponses": [
+                { "texte": "Le manteau", "correct": false },
+                { "texte": "Le noyau", "correct": false },
+                { "texte": "La croûte terrestre", "correct": true },
+                { "texte": "La lithosphère", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle science étudie les fossiles ?",
+            "reponses": [
+                { "texte": "L'archéologie", "correct": false },
+                { "texte": "La paléontologie", "correct": true },
+                { "texte": "La géologie", "correct": false },
+                { "texte": "L'anthropologie", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel groupe d'animaux possède des mamelles mais pond des œufs ?",
+            "reponses": [
+                { "texte": "Les marsupiaux", "correct": false },
+                { "texte": "Les monotrèmes", "correct": true },
+                { "texte": "Les rongeurs", "correct": false },
+                { "texte": "Les cétacés", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la formule chimique du sel de table ?",
+            "reponses": [
+                { "texte": "H2O", "correct": false },
+                { "texte": "CO2", "correct": false },
+                { "texte": "NaCl", "correct": true },
+                { "texte": "NaHCO3", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle vitamine est principalement synthétisée par la peau grâce à l'exposition au soleil ?",
+            "reponses": [
+                { "texte": "Vitamine C", "correct": false },
+                { "texte": "Vitamine D", "correct": true },
+                { "texte": "Vitamine A", "correct": false },
+                { "texte": "Vitamine B12", "correct": false }
+            ]
+        }
+    ],
+    "Technologie": [
+        {
+            "question": "Que signifie l'acronyme HTML ?",
+            "reponses": [
+                { "texte": "HyperText Markup Language", "correct": true },
+                { "texte": "High Tech Multi Language", "correct": false },
+                { "texte": "Hyper Transfer Main Link", "correct": false },
+                { "texte": "Home Tool Management Line", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel composant d'un ordinateur est souvent appelé son 'cerveau' ?",
+            "reponses": [
+                { "texte": "Le disque dur", "correct": false },
+                { "texte": "La carte graphique", "correct": false },
+                { "texte": "Le processeur (CPU)", "correct": true },
+                { "texte": "La mémoire vive (RAM)", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle entreprise a développé le système d'exploitation Android ?",
+            "reponses": [
+                { "texte": "Apple", "correct": false },
+                { "texte": "Microsoft", "correct": false },
+                { "texte": "Google", "correct": true },
+                { "texte": "Nokia", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année le World Wide Web (WWW) a-t-il été ouvert au public ?",
+            "reponses": [
+                { "texte": "1975", "correct": false },
+                { "texte": "1983", "correct": false },
+                { "texte": "1991", "correct": true },
+                { "texte": "2000", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel protocole est utilisé pour sécuriser la navigation sur un site web ?",
+            "reponses": [
+                { "texte": "HTTP", "correct": false },
+                { "texte": "HTTPS", "correct": true },
+                { "texte": "FTP", "correct": false },
+                { "texte": "SMTP", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la fonction principale de la mémoire RAM dans un ordinateur ?",
+            "reponses": [
+                { "texte": "Stocker les données de manière permanente", "correct": false },
+                { "texte": "Stocker temporairement les données des programmes en cours d'exécution", "correct": true },
+                { "texte": "Alimenter les composants en électricité", "correct": false },
+                { "texte": "Refroidir le système", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui est considéré comme le principal cofondateur de Microsoft ?",
+            "reponses": [
+                { "texte": "Steve Jobs", "correct": false },
+                { "texte": "Bill Gates", "correct": true },
+                { "texte": "Mark Zuckerberg", "correct": false },
+                { "texte": "Elon Musk", "correct": false }
+            ]
+        },
+        {
+            "question": "Que signifie le terme 'Wi-Fi' ?",
+            "reponses": [
+                { "texte": "Wireless Fidelity", "correct": true },
+                { "texte": "Wide Finder", "correct": false },
+                { "texte": "Wired Fiber", "correct": false },
+                { "texte": "Windows Fix", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel langage de programmation est le plus couramment utilisé pour le développement de scripts interactifs côté client sur le web ?",
+            "reponses": [
+                { "texte": "Python", "correct": false },
+                { "texte": "C++", "correct": false },
+                { "texte": "JavaScript", "correct": true },
+                { "texte": "SQL", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle technologie est utilisée pour enregistrer des transactions de manière décentralisée et sécurisée, notamment pour les cryptomonnaies ?",
+            "reponses": [
+                { "texte": "Le Cloud computing", "correct": false },
+                { "texte": "La Blockchain", "correct": true },
+                { "texte": "Le Big Data", "correct": false },
+                { "texte": "La réalité virtuelle", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel port standardisé est aujourd'hui principalement utilisé pour recharger les smartphones modernes ?",
+            "reponses": [
+                { "texte": "Micro-USB", "correct": false },
+                { "texte": "Lightning", "correct": false },
+                { "texte": "USB Type-C", "correct": true },
+                { "texte": "Mini-HDMI", "correct": false }
+            ]
+        },
+        {
+            "question": "Que signifie l'acronyme URL ?",
+            "reponses": [
+                { "texte": "Uniform Resource Locator", "correct": true },
+                { "texte": "Universal Recovery Link", "correct": false },
+                { "texte": "User Response Line", "correct": false },
+                { "texte": "Unified Radio Network", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est l'extension de fichier standard pour un script écrit en Python ?",
+            "reponses": [
+                { "texte": ".py", "correct": true },
+                { "texte": ".pt", "correct": false },
+                { "texte": ".python", "correct": false },
+                { "texte": ".exe", "correct": false }
+            ]
+        },
+        {
+            "question": "De combien de bits se compose une adresse IPv4 standard ?",
+            "reponses": [
+                { "texte": "16 bits", "correct": false },
+                { "texte": "32 bits", "correct": true },
+                { "texte": "64 bits", "correct": false },
+                { "texte": "128 bits", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel système d'exploitation open-source utilise le logo d'un manchot nommé Tux ?",
+            "reponses": [
+                { "texte": "Windows", "correct": false },
+                { "texte": "macOS", "correct": false },
+                { "texte": "Linux", "correct": true },
+                { "texte": "FreeBSD", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel type de périphérique est un scanner ?",
+            "reponses": [
+                { "texte": "Un périphérique d'entrée", "correct": true },
+                { "texte": "Un périphérique de sortie", "correct": false },
+                { "texte": "Un périphérique de stockage", "correct": false },
+                { "texte": "Un périphérique de traitement", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle entreprise a lancé l'assistant virtuel Alexa ?",
+            "reponses": [
+                { "texte": "Google", "correct": false },
+                { "texte": "Amazon", "correct": true },
+                { "texte": "Microsoft", "correct": false },
+                { "texte": "Samsung", "correct": false }
+            ]
+        },
+        {
+            "question": "Que signifie le 'G' dans les réseaux mobiles tels que 4G ou 5G ?",
+            "reponses": [
+                { "texte": "Gigabit", "correct": false },
+                { "texte": "Global", "correct": false },
+                { "texte": "Génération", "correct": true },
+                { "texte": "Gateway", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel terme désigne un logiciel malveillant qui bloque les données d'un utilisateur et réclame de l'argent pour les débloquer ?",
+            "reponses": [
+                { "texte": "Un spyware", "correct": false },
+                { "texte": "Un ransomware", "correct": true },
+                { "texte": "Un adware", "correct": false },
+                { "texte": "Un cheval de Troie", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans le domaine des bases de données, que signifie l'acronyme SQL ?",
+            "reponses": [
+                { "texte": "Structured Query Language", "correct": true },
+                { "texte": "Simple Quick Link", "correct": false },
+                { "texte": "System Quality Logic", "correct": false },
+                { "texte": "Sequential Query Line", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle entreprise a racheté le réseau social GitHub en 2018 ?",
+            "reponses": [
+                { "texte": "Google", "correct": false },
+                { "texte": "Facebook", "correct": false },
+                { "texte": "Microsoft", "correct": true },
+                { "texte": "Oracle", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien de mégaoctets (Mo) y a-t-il exactement dans un gigaoctet (Go) selon les puissances de 2 (système binaire) ?",
+            "reponses": [
+                { "texte": "1000 Mo", "correct": false },
+                { "texte": "1024 Mo", "correct": true },
+                { "texte": "2048 Mo", "correct": false },
+                { "texte": "512 Mo", "correct": false }
+            ]
+        }
+    ],
+    "Culture générale": [
+        {
+            "question": "Qui a peint la célèbre fresque du plafond de la chapelle Sixtine ?",
+            "reponses": [
+                { "texte": "Léonard de Vinci", "correct": false },
+                { "texte": "Michel-Ange", "correct": true },
+                { "texte": "Raphaël", "correct": false },
+                { "texte": "Donatello", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est l'animal terrestre le plus rapide au monde ?",
+            "reponses": [
+                { "texte": "Le guépard", "correct": true },
+                { "texte": "Le lion", "correct": false },
+                { "texte": "L'antilope", "correct": false },
+                { "texte": "Le léopard", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quelle mythologie trouve-t-on le dieu Thor ?",
+            "reponses": [
+                { "texte": "Grecque", "correct": false },
+                { "texte": "Romaine", "correct": false },
+                { "texte": "Nordique", "correct": true },
+                { "texte": "Égyptienne", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est l'instrument de musique à cordes le plus grand de l'orchestre symphonique classique (joué assis ou debout) ?",
+            "reponses": [
+                { "texte": "Le violoncelle", "correct": false },
+                { "texte": "L'alto", "correct": false },
+                { "texte": "La contrebasse", "correct": true },
+                { "texte": "La harpe", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel écrivain français a rédigé le roman 'Les Misérables' ?",
+            "reponses": [
+                { "texte": "Émile Zola", "correct": false },
+                { "texte": "Gustave Flaubert", "correct": false },
+                { "texte": "Victor Hugo", "correct": true },
+                { "texte": "Honoré de Balzac", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la monnaie officielle du Royaume-Uni ?",
+            "reponses": [
+                { "texte": "L'Euro", "correct": false },
+                { "texte": "Le Dollar", "correct": false },
+                { "texte": "La Livre sterling", "correct": true },
+                { "texte": "Le Franc suisse", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel monument parisien a été construit pour l'Exposition universelle de 1889 ?",
+            "reponses": [
+                { "texte": "L'Arc de Triomphe", "correct": false },
+                { "texte": "La Tour Eiffel", "correct": true },
+                { "texte": "Le Sacré-Cœur", "correct": false },
+                { "texte": "Le Panthéon", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+            "reponses": [
+                { "texte": "L'oxygène", "correct": false },
+                { "texte": "L'hydrogène", "correct": true },
+                { "texte": "Le carbone", "correct": false },
+                { "texte": "L'hélium", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quelle ville italienne se trouve la célèbre tour penchée ?",
+            "reponses": [
+                { "texte": "Florence", "correct": false },
+                { "texte": "Rome", "correct": false },
+                { "texte": "Pise", "correct": true },
+                { "texte": "Venise", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien de joueurs composent une équipe de football sur le terrain pendant un match standard ?",
+            "reponses": [
+                { "texte": "9", "correct": false },
+                { "texte": "11", "correct": true },
+                { "texte": "13", "correct": false },
+                { "texte": "15", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel philosophe grec était le professeur d'Alexandre le Grand ?",
+            "reponses": [
+                { "texte": "Socrate", "correct": false },
+                { "texte": "Platon", "correct": false },
+                { "texte": "Aristote", "correct": true },
+                { "texte": "Épicure", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le plus grand océan de la Terre ?",
+            "reponses": [
+                { "texte": "L'océan Pacifique", "correct": true },
+                { "texte": "L'océan Atlantique", "correct": false },
+                { "texte": "L'océan Indien", "correct": false },
+                { "texte": "L'océan Arctique", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel pays a offert la Statue de la Liberté aux États-Unis ?",
+            "reponses": [
+                { "texte": "Le Royaume-Uni", "correct": false },
+                { "texte": "La France", "correct": true },
+                { "texte": "L'Espagne", "correct": false },
+                { "texte": "L'Italie", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel oiseau est incapable de voler et est originaire de l'Antarctique ?",
+            "reponses": [
+                { "texte": "L'autruche", "correct": false },
+                { "texte": "Le manchot", "correct": true },
+                { "texte": "Le kiwi", "correct": false },
+                { "texte": "Le pélican", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le plus long os du corps humain ?",
+            "reponses": [
+                { "texte": "Le tibia", "correct": false },
+                { "texte": "Le fémur", "correct": true },
+                { "texte": "L'humérus", "correct": false },
+                { "texte": "Le radius", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle langue est la plus parlée au monde en tant que langue maternelle ?",
+            "reponses": [
+                { "texte": "L'anglais", "correct": false },
+                { "texte": "Le chinois mandarin", "correct": true },
+                { "texte": "L'espagnol", "correct": false },
+                { "texte": "L'hindi", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel dramaturge anglais a écrit la tragédie 'Hamlet' ?",
+            "reponses": [
+                { "texte": "Molière", "correct": false },
+                { "texte": "William Shakespeare", "correct": true },
+                { "texte": "Oscar Wilde", "correct": false },
+                { "texte": "Arthur Miller", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle est la capitale actuelle de l'Espagne ?",
+            "reponses": [
+                { "texte": "Barcelone", "correct": false },
+                { "texte": "Séville", "correct": false },
+                { "texte": "Madrid", "correct": true },
+                { "texte": "Valence", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année l'euro est-il devenu la monnaie fiduciaire (pièces et billets) dans la vie quotidienne des citoyens de la zone euro ?",
+            "reponses": [
+                { "texte": "1999", "correct": false },
+                { "texte": "2000", "correct": false },
+                { "texte": "2002", "correct": true },
+                { "texte": "2005", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le symbole chimique de l'or ?",
+            "reponses": [
+                { "texte": "Ag", "correct": false },
+                { "texte": "Au", "correct": true },
+                { "texte": "Fe", "correct": false },
+                { "texte": "Or", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quelle ville se trouve le musée du Louvre ?",
+            "reponses": [
+                { "texte": "Paris", "correct": true },
+                { "texte": "Lyon", "correct": false },
+                { "texte": "Marseille", "correct": false },
+                { "texte": "Bordeaux", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien d'États compte les États-Unis d'Amérique ?",
+            "reponses": [
+                { "texte": "48", "correct": false },
+                { "texte": "50", "correct": true },
+                { "texte": "52", "correct": false },
+                { "texte": "54", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui a découvert la pénicilline en 1928 ?",
+            "reponses": [
+                { "texte": "Louis Pasteur", "correct": false },
+                { "texte": "Alexander Fleming", "correct": true },
+                { "texte": "Robert Koch", "correct": false },
+                { "texte": "Marie Curie", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel fleuve traverse la ville de Londres ?",
+            "reponses": [
+                { "texte": "La Seine", "correct": false },
+                { "texte": "La Tamise", "correct": true },
+                { "texte": "Le Danube", "correct": false },
+                { "texte": "Le Rhin", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le nom de la galaxie dans laquelle se trouve notre système solaire ?",
+            "reponses": [
+                { "texte": "Andromède", "correct": false },
+                { "texte": "La Voie lactée", "correct": true },
+                { "texte": "La Galaxie du Triangle", "correct": false },
+                { "texte": "Magellan", "correct": false }
+            ]
+        }
+    ],
+    "Films": [
+        {
+            "question": "Quel réalisateur a mis en scène le film 'Inception' sorti en 2010 ?",
+            "reponses": [
+                { "texte": "Steven Spielberg", "correct": false },
+                { "texte": "Christopher Nolan", "correct": true },
+                { "texte": "Quentin Tarantino", "correct": false },
+                { "texte": "Martin Scorsese", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel acteur incarne le personnage de Jack Dawson dans le film 'Titanic' de 1997 ?",
+            "reponses": [
+                { "texte": "Brad Pitt", "correct": false },
+                { "texte": "Leonardo DiCaprio", "correct": true },
+                { "texte": "Tom Cruise", "correct": false },
+                { "texte": "Johnny Depp", "correct": false }
+            ]
+        },
+        {
+            "question": "Combien d'Oscars majeurs le film 'Le Seigneur des anneaux : Le Retour du roi' a-t-il remportés ?",
+            "reponses": [
+                { "texte": "7", "correct": false },
+                { "texte": "9", "correct": false },
+                { "texte": "11", "correct": true },
+                { "texte": "13", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le premier long-métrage d'animation produit par les studios Disney ?",
+            "reponses": [
+                { "texte": "Cendrillon", "correct": false },
+                { "texte": "Blanche-Neige et les Sept Nains", "correct": true },
+                { "texte": "Pinocchio", "correct": false },
+                { "texte": "Bambi", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel acteur incarne le super-héros Iron Man dans l'univers cinématographique Marvel (MCU) ?",
+            "reponses": [
+                { "texte": "Chris Evans", "correct": false },
+                { "texte": "Robert Downey Jr.", "correct": true },
+                { "texte": "Chris Hemsworth", "correct": false },
+                { "texte": "Mark Ruffalo", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans la saga 'Star Wars', quel acteur prête sa voix originale au célèbre personnage de Dark Vador (sous le masque) ?",
+            "reponses": [
+                { "texte": "Mark Hamill", "correct": false },
+                { "texte": "Harrison Ford", "correct": false },
+                { "texte": "James Earl Jones", "correct": true },
+                { "texte": "Alec Guinness", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui a réalisé le film de science-fiction 'Avatar' sorti en 2009 ?",
+            "reponses": [
+                { "texte": "Ridley Scott", "correct": false },
+                { "texte": "James Cameron", "correct": true },
+                { "texte": "George Lucas", "correct": false },
+                { "texte": "Peter Jackson", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film de Quentin Tarantino met en scène le personnage de Beatrix Kiddo, alias 'La Mariée' ?",
+            "reponses": [
+                { "texte": "Pulp Fiction", "correct": false },
+                { "texte": "Kill Bill", "correct": true },
+                { "texte": "Inglourious Basterds", "correct": false },
+                { "texte": "Django Unchained", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel film d'animation Pixar rencontre-t-on les monstres Sulli et Bob Razowski ?",
+            "reponses": [
+                { "texte": "Toy Story", "correct": false },
+                { "texte": "Monstres & Cie", "correct": true },
+                { "texte": "Le Monde de Nemo", "correct": false },
+                { "texte": "Les Indestructibles", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel acteur incarne l'agent secret James Bond dans le film 'Casino Royale' (2006) ?",
+            "reponses": [
+                { "texte": "Pierce Brosnan", "correct": false },
+                { "texte": "Daniel Craig", "correct": true },
+                { "texte": "Sean Connery", "correct": false },
+                { "texte": "Roger Moore", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film a remporté l'Oscar du meilleur film en 2020, devenant le premier film en langue étrangère à obtenir cette récompense ?",
+            "reponses": [
+                { "texte": "Roma", "correct": false },
+                { "texte": "Parasite", "correct": true },
+                { "texte": "1917", "correct": false },
+                { "texte": "La Môme", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle actrice incarne le personnage principal de Katniss Everdeen dans la saga 'Hunger Games' ?",
+            "reponses": [
+                { "texte": "Emma Watson", "correct": false },
+                { "texte": "Jennifer Lawrence", "correct": true },
+                { "texte": "Kristen Stewart", "correct": false },
+                { "texte": "Scarlett Johansson", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel réalisateur américain est derrière les classiques 'Les Dents de la mer', 'E.T.' et 'Jurassic Park' ?",
+            "reponses": [
+                { "texte": "Martin Scorsese", "correct": false },
+                { "texte": "Steven Spielberg", "correct": true },
+                { "texte": "Francis Ford Coppola", "correct": false },
+                { "texte": "Stanley Kubrick", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel film entend-on la célèbre réplique : 'Que la Force soit avec toi' ?",
+            "reponses": [
+                { "texte": "Star Trek", "correct": false },
+                { "texte": "Star Wars", "correct": true },
+                { "texte": "Matrix", "correct": false },
+                { "texte": "Interstellar", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui joue le rôle du Joker dans le film 'The Dark Knight' (2008) de Christopher Nolan ?",
+            "reponses": [
+                { "texte": "Jack Nicholson", "correct": false },
+                { "texte": "Heath Ledger", "correct": true },
+                { "texte": "Joaquin Phoenix", "correct": false },
+                { "texte": "Jared Leto", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le nom du royaume fictif où se déroule l'intrigue du film d'animation Disney 'La Reine des Neiges' ?",
+            "reponses": [
+                { "texte": "Arendelle", "correct": true },
+                { "texte": "Corona", "correct": false },
+                { "texte": "Atlantica", "correct": false },
+                { "texte": "Agrabah", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film de science-fiction sorti en 1999 met en scène le personnage de Néo, qui doit choisir entre la pilule rouge et la pilule bleue ?",
+            "reponses": [
+                { "texte": "Inception", "correct": false },
+                { "texte": "Matrix", "correct": true },
+                { "texte": "Blade Runner", "correct": false },
+                { "texte": "Le Cinquième Élément", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle actrice incarne la mythique Hermione Granger dans la saga cinématographique 'Harry Potter' ?",
+            "reponses": [
+                { "texte": "Saoirse Ronan", "correct": false },
+                { "texte": "Emma Watson", "correct": true },
+                { "texte": "Florence Pugh", "correct": false },
+                { "texte": "Lily Collins", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film d'horreur de Alfred Hitchcock, sorti en 1960, est célèbre pour sa scène culte sous la douche ?",
+            "reponses": [
+                { "texte": "Shining", "correct": false },
+                { "texte": "Psychose", "correct": true },
+                { "texte": "Les Oiseaux", "correct": false },
+                { "texte": "L'Exorciste", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel classique musical de 1939 suit-on les aventures de Dorothy sur une route de briques jaunes ?",
+            "reponses": [
+                { "texte": "Le Magicien d'Oz", "correct": true },
+                { "texte": "Mary Poppins", "correct": false },
+                { "texte": "Chantons sous la pluie", "correct": false },
+                { "texte": "La Mélodie du bonheur", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel acteur américain tient le rôle principal de Forrest Gump dans le film éponyme de 1994 ?",
+            "reponses": [
+                { "texte": "Tom Hanks", "correct": true },
+                { "texte": "Tom Cruise", "correct": false },
+                { "texte": "Johnny Depp", "correct": false },
+                { "texte": "Robin Williams", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel est le titre du premier film de la saga 'Pirates des Caraïbes' sorti en 2003 ?",
+            "reponses": [
+                { "texte": "Le Secret du coffre maudit", "correct": false },
+                { "texte": "La Malédiction du Black Pearl", "correct": true },
+                { "texte": "Jusqu'au bout du monde", "correct": false },
+                { "texte": "La Fontaine de Jouvence", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel cinéaste italien a réalisé le célèbre western spaghetti 'Le Bon, la Brute et le Truand' ?",
+            "reponses": [
+                { "texte": "Federico Fellini", "correct": false },
+                { "texte": "Sergio Leone", "correct": true },
+                { "texte": "Roberto Rossellini", "correct": false },
+                { "texte": "Bernardo Bertolucci", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel film d'animation de 1994 le jeune lion Simba doit-il succéder à son père Mufasa ?",
+            "reponses": [
+                { "texte": "Le Roi Lion", "correct": true },
+                { "texte": "Bambi", "correct": false },
+                { "texte": "Madagascar", "correct": false },
+                { "texte": "Tarzan", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film réalisé par Ridley Scott en 2000 met en scène Russell Crowe dans le rôle de Maximus ?",
+            "reponses": [
+                { "texte": "Troie", "correct": false },
+                { "texte": "Gladiator", "correct": true },
+                { "texte": "Kingdom of Heaven", "correct": false },
+                { "texte": "Braveheart", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle actrice incarne le personnage d'Amélie Poulain dans le film de Jean-Pierre Jeunet sorti en 2001 ?",
+            "reponses": [
+                { "texte": "Marion Cotillard", "correct": false },
+                { "texte": "Audrey Tautou", "correct": true },
+                { "texte": "Léa Seydoux", "correct": false },
+                { "texte": "Cécile de France", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film de super-héros réalisé par Christopher Nolan en 2005 relance les aventures de Batman au cinéma ?",
+            "reponses": [
+                { "texte": "Batman Begins", "correct": true },
+                { "texte": "The Dark Knight", "correct": false },
+                { "texte": "The Dark Knight Rises", "correct": false },
+                { "texte": "Batman & Robin", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans le film 'Le Parrain' (1972), quel acteur légendaire incarne Don Vito Corleone ?",
+            "reponses": [
+                { "texte": "Al Pacino", "correct": false },
+                { "texte": "Marlon Brando", "correct": true },
+                { "texte": "Robert De Niro", "correct": false },
+                { "texte": "Dustin Hoffman", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel film de science-fiction de Christopher Nolan, sorti en 2014, explore les voyages à travers un trou de ver pour sauver l'humanité ?",
+            "reponses": [
+                { "texte": "Inception", "correct": false },
+                { "texte": "Interstellar", "correct": true },
+                { "texte": "Gravity", "correct": false },
+                { "texte": "Premier Contact", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui a composé la bande originale emblématique des films 'Star Wars', 'Indiana Jones' et 'Harry Potter' ?",
+            "reponses": [
+                { "texte": "Hans Zimmer", "correct": false },
+                { "texte": "John Williams", "correct": true },
+                { "texte": "Ennio Morricone", "correct": false },
+                { "texte": "Howard Shore", "correct": false }
+            ]
+        }
+    ],
+    "Histoire": [
+        {
+            "question": "En quelle année a débuté la Première Guerre mondiale ?",
+            "reponses": [
+                { "texte": "1912", "correct": false },
+                { "texte": "1914", "correct": true },
+                { "texte": "1916", "correct": false },
+                { "texte": "1918", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était le premier empereur de l'Empire romain ?",
+            "reponses": [
+                { "texte": "Jules César", "correct": false },
+                { "texte": "Auguste", "correct": true },
+                { "texte": "Néron", "correct": false },
+                { "texte": "Caligula", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel événement historique majeur s'est déroulé en France le 14 juillet 1789 ?",
+            "reponses": [
+                { "texte": "L'exécution de Louis XVI", "correct": false },
+                { "texte": "La prise de la Bastille", "correct": true },
+                { "texte": "La déclaration de la République", "correct": false },
+                { "texte": "Le coup d'État de Napoléon", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel roi de France était surnommé 'Le Roi-Soleil' ?",
+            "reponses": [
+                { "texte": "Henri IV", "correct": false },
+                { "texte": "Louis XIV", "correct": true },
+                { "texte": "Louis XVI", "correct": false },
+                { "texte": "François Ier", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année l'esclavage a-t-il été définitivement aboli en France et dans ses colonies ?",
+            "reponses": [
+                { "texte": "1789", "correct": false },
+                { "texte": "1804", "correct": false },
+                { "texte": "1848", "correct": true },
+                { "texte": "1905", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel navigateur génois est célèbre pour avoir atteint les Amériques en 1492 ?",
+            "reponses": [
+                { "texte": "Vasco de Gama", "correct": false },
+                { "texte": "Christopher Colomb", "correct": true },
+                { "texte": "Fernand de Magellan", "correct": false },
+                { "texte": "Amerigo Vespucci", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle civilisation antique a construit la grande pyramide de Gizeh ?",
+            "reponses": [
+                { "texte": "Les Mayas", "correct": false },
+                { "texte": "Les Égyptiens", "correct": true },
+                { "texte": "Les Grecs", "correct": false },
+                { "texte": "Les Romains", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était le président des États-Unis pendant la majeure partie de la Seconde Guerre mondiale ?",
+            "reponses": [
+                { "texte": "Woodrow Wilson", "correct": false },
+                { "texte": "Franklin D. Roosevelt", "correct": true },
+                { "texte": "Harry S. Truman", "correct": false },
+                { "texte": "Dwight D. Eisenhower", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel empire a été dissous immédiatement après la fin de la Première Guerre mondiale en octobre/novembre 1918 ?",
+            "reponses": [
+                { "texte": "L'Empire ottoman", "correct": false },
+                { "texte": "L'Empire Austro-Hongrois", "correct": true },
+                { "texte": "L'Empire britannique", "correct": false },
+                { "texte": "L'Empire romain", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année est tombé le mur de Berlin, marquant une étape clé de la fin de la guerre froide ?",
+            "reponses": [
+                { "texte": "1985", "correct": false },
+                { "texte": "1989", "correct": true },
+                { "texte": "1991", "correct": false },
+                { "texte": "1993", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était la reine d'Égypte célèbre pour ses alliances politiques et amoureuses avec Jules César et Marc Antoine ?",
+            "reponses": [
+                { "texte": "Néfertiti", "correct": false },
+                { "texte": "Cléopâtre VII", "correct": true },
+                { "texte": "Hatchepsout", "correct": false },
+                { "texte": "Néfertari", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle sainte et héroïne française a mené les troupes contre les Anglais lors du siège d'Orléans pendant la guerre de Cent Ans ?",
+            "reponses": [
+                { "texte": "Jeanne d'Arc", "correct": true },
+                { "texte": "Sainte Geneviève", "correct": false },
+                { "texte": "Catherine de Médicis", "correct": false },
+                { "texte": "Marie Stuart", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel traité, signé en 1919, a officiellement mis fin à la Première Guerre mondiale entre l'Allemagne et les Alliés ?",
+            "reponses": [
+                { "texte": "Le traité de Vienne", "correct": false },
+                { "texte": "Le traité de Versailles", "correct": true },
+                { "texte": "Le traité de Paris", "correct": false },
+                { "texte": "Le traité de Tordesillas", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était le chef de l'Empire mongol au XIIIe siècle, connu pour avoir conquis de vastes territoires en Asie et en Europe ?",
+            "reponses": [
+                { "texte": "Attila", "correct": false },
+                { "texte": "Gengis Khan", "correct": true },
+                { "texte": "Kubilai Khan", "correct": false },
+                { "texte": "Tamerlan", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel événement a déclenché l'entrée officielle des États-Unis dans la Seconde Guerre mondiale en décembre 1941 ?",
+            "reponses": [
+                { "texte": "L'invasion de la Pologne", "correct": false },
+                { "texte": "L'attaque de Pearl Harbor", "correct": true },
+                { "texte": "La bataille de Normandie", "correct": false },
+                { "texte": "Le bombardement de Londres", "correct": false }
+            ]
+        },
+        {
+            "question": "Dans quel pays actuel se situait principalement l'ancienne cité de Carthage ?",
+            "reponses": [
+                { "texte": "La Tunisie", "correct": true },
+                { "texte": "L'Égypte", "correct": false },
+                { "texte": "Le Maroc", "correct": false },
+                { "texte": "La Grèce", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel homme politique et leader des droits civiques américain a prononcé le célèbre discours 'I Have a Dream' en 1963 ?",
+            "reponses": [
+                { "texte": "Malcolm X", "correct": false },
+                { "texte": "Martin Luther King Jr.", "correct": true },
+                { "texte": "Nelson Mandela", "correct": false },
+                { "texte": "John F. Kennedy", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel souverain franc a été sacré empereur d'Occident à Rome le jour de Noël de l'an 800 ?",
+            "reponses": [
+                { "texte": "Clovis", "correct": false },
+                { "texte": "Charlemagne", "correct": true },
+                { "texte": "Charles Martel", "correct": false },
+                { "texte": "Pépin le Bref", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année s'est effondrée l'Union Soviétique (URSS) ?",
+            "reponses": [
+                { "texte": "1989", "correct": false },
+                { "texte": "1991", "correct": true },
+                { "texte": "1993", "correct": false },
+                { "texte": "1995", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle reine a régné sur le Royaume-Uni pendant plus de 63 ans au XIXe siècle, donnant son nom à toute une époque ?",
+            "reponses": [
+                { "texte": "La reine Élisabeth Ire", "correct": false },
+                { "texte": "La reine Victoria", "correct": true },
+                { "texte": "La reine Anne", "correct": false },
+                { "texte": "La reine Marie Ire", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle dynastie régnait sur la Russie avant la révolution d'Octobre de 1917 ?",
+            "reponses": [
+                { "texte": "Les Habsbourg", "correct": false },
+                { "texte": "Les Romanov", "correct": true },
+                { "texte": "Les Bourbons", "correct": false },
+                { "texte": "Les Tudor", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était le chef militaire carthaginois célèbre pour avoir traversé les Alpes avec des éléphants durant la deuxième guerre punique ?",
+            "reponses": [
+                { "texte": "Scipion l'Africain", "correct": false },
+                { "texte": "Annibal Barca", "correct": true },
+                { "texte": "Vercingétorix", "correct": false },
+                { "texte": "Spartacus", "correct": false }
+            ]
+        },
+        {
+            "question": "En quelle année s'est déroulée la célèbre bataille de Waterloo qui a marqué la fin définitive de l'empire napoléonien ?",
+            "reponses": [
+                { "texte": "1804", "correct": false },
+                { "texte": "1812", "correct": false },
+                { "texte": "1815", "correct": true },
+                { "texte": "1821", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle guerre civile a opposé le Nord et le Sud des États-Unis entre 1861 et 1865 ?",
+            "reponses": [
+                { "texte": "La guerre de Sécession", "correct": true },
+                { "texte": "La guerre d'Indépendance", "correct": false },
+                { "texte": "La guerre de Sept Ans", "correct": false },
+                { "texte": "La guerre de Cent Ans", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel pays européen a été dirigé par le dictateur Francisco Franco de 1939 à 1975 ?",
+            "reponses": [
+                { "texte": "L'Italie", "correct": false },
+                { "texte": "Le Portugal", "correct": false },
+                { "texte": "L'Espagne", "correct": true },
+                { "texte": "La Grèce", "correct": false }
+            ]
+        },
+        {
+            "question": "Qui était le président de l'Afrique du Sud qui a partagé le prix Nobel de la paix avec Nelson Mandela en 1993 pour la fin de l'Apartheid ?",
+            "reponses": [
+                { "texte": "P. W. Botha", "correct": false },
+                { "texte": "Frederik de Klerk", "correct": true },
+                { "texte": "Thabo Mbeki", "correct": false },
+                { "texte": "Jacob Zuma", "correct": false }
+            ]
+        },
+        {
+            "question": "Quel code de lois unifié a été promulgué en France en 1804 sous le Consulat ?",
+            "reponses": [
+                { "texte": "Le Code civil (ou Code Napoléon)", "correct": true },
+                { "texte": "Le Code pénal", "correct": false },
+                { "texte": "La Constitution de l'An VIII", "correct": false },
+                { "texte": "La Déclaration des Droits", "correct": false }
+            ]
+        },
+        {
+            "question": "Quelle grande crise économique mondiale a été déclenchée par le krach boursier de Wall Street en octobre 1929 ?",
+            "reponses": [
+                { "texte": "La Grande Dépression", "correct": true },
+                { "texte": "La crise des subprimes", "correct": false },
+                { "texte": "Le premier choc pétrolier", "correct": false },
+                { "texte": "La bulle internet", "correct": false }
+            ]
+        }
+    ]
+}
